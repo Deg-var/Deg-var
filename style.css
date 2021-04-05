@@ -1,0 +1,242 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0%;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+    background: url('img/fon1.jpg')repeat;
+    background-size: contain;
+}
+
+.glagne {
+    font-size: 50px;
+    background: url('img/fon.jpg') no-repeat;
+    height: 500px;
+    background-size: 100%;
+    text-align: center;
+    color: #15ff00;
+    border-bottom: solid #9e1a09;
+    padding-top: 20px;
+}
+
+.padloshka a {
+    color: #9e1a09;
+    text-decoration: none;
+}
+
+.padloshka a:hover {
+    text-shadow: #d9ff0083 0px 0px 4px;
+}
+
+.autor, .karta {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 50px;
+    display: table;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    margin: 10px 100px;
+    margin-bottom: 100px;
+    vertical-align: middle;
+}
+
+.opisanie {
+    height: auto;
+    margin: 0;
+    display: table;
+}
+
+.contimg {
+    vertical-align: middle;
+    margin: 40px;
+    border-radius: 0px;
+    text-align: left;
+    display: table-cell;
+    width: 200px;
+}
+
+q {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+em {
+    text-align: right;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.citata {
+    text-align: end;
+    padding: 80px;
+}
+
+.cont2 {
+    text-align: center;
+    line-height: 0px;
+    font-size: 40px;
+    border-radius: 10px;
+    font-weight: 700;
+    margin: 60px 0px 0px 0px;
+}
+
+.cont {
+    font-size: 40px;
+    border-radius: 10px;
+    text-align: left;
+    vertical-align: top;
+    align-self: center;
+    display: table-cell;
+    padding: 20px 60px 0px 0px;
+}
+
+.conttext {
+    margin: 0px;
+    padding: 0px;
+    font-size: 35px;
+    border-radius: 10px;
+    text-align: left;
+    vertical-align: middle;
+    align-self: center;
+    display: table-cell;
+}
+
+.icon {
+    height: 200px;
+    width: 120px;
+    border: solid 5px #ce7808;
+}
+
+nav {
+    margin: 0%;
+}
+
+header {
+    margin: 0%;
+}
+
+.padloshka {
+    background: rgba(224, 203, 163, 0.7);
+    display: table;
+    width: 100%;
+    color: #9e1a09;
+    font-size: 20px;
+    padding: 10px 0px;
+    font-weight: 700;
+}
+
+.chtoto {
+    color: #9e1a09;
+    font-weight: 900;
+    margin: 100px;
+    border: solid;
+    background: rgba(224, 203, 163, 0.5);
+    height: auto;
+    padding: 15px;
+    text-shadow: rgb(236, 192, 110) 4px 4px 4px;
+    border-radius: 10px;
+}
+
+.citata {
+    text-align: center;
+}
+
+.mods {
+    text-align: center;
+    font-size: 30px;
+    margin: 10px 100px;
+}
+
+.zaglavie {
+    font-weight: 900;
+    font-size: 50px;
+    color: #000000;
+}
+
+.karta {
+    font-size: 20px;
+    border-radius: 15px;
+    text-align: center;
+    vertical-align: top;
+    width: 350px;
+    margin: 40px 20px 0px 0px;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+.vidos1 {
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.nazvanie {
+    font-weight: 900;
+    margin: 30px 0px 20px 0px;
+}
+
+.podpis {
+    font-weight: 900;
+    vertical-align: middle;
+    font-size: 15px;
+    margin: 20px 20px 20px 20px;
+}
+
+.podpis_text {
+    vertical-align: bottom;
+    height: 130px;
+    font-weight: 500;
+}
+
+.svas_img {
+    width: 50px;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 70px;
+    padding: 15px;
+    margin: 20px;
+}
+
+.svas {
+    text-align: center;
+    background-color: rgb(46, 0, 0);
+    margin-top: 100px;
+    padding: 40px;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.svas_text {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 10px 100px;
+}
+
+.smotri a {
+    border: solid rgba(0, 0, 0, 0.5);
+    padding: 8px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 15px;
+}
+
+.smotri a:hover {
+    color: rgba(0, 0, 0, 0.9);
+    text-shadow: #ce7808;
+    border: solid rgba(0, 0, 0, 0.8);
+}
+
+.proc a {
+    color: rgba(19, 0, 0, 0.4);
+    text-shadow: #ce7808;
+    border: solid rgba(19, 0, 0, 0.4);
+}
+
+.proc a:hover {
+    color: rgba(19, 0, 0, 0.4);
+    text-shadow: #ce7808;
+    border: solid rgba(19, 0, 0, 0.4);
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(255, 255, 255);
+}
