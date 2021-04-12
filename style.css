@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0%;
+    margin: auto;
     padding: 0px;
     font-family: Arial, sans-serif;
     background: url("img/fon1.jpg")repeat;
@@ -149,7 +149,7 @@ header {
 .zaglavie {
     font-weight: 900;
     font-size: 50px;
-    color: #000000;
+    color: rgba(0, 0, 0, 0.85);
 }
 
 .karta {
@@ -171,6 +171,7 @@ header {
 .nazvanie {
     font-weight: 900;
     margin: 30px 0px 20px 0px;
+    color: rgba(0, 0, 0, 0.85);
 }
 
 .podpis {
@@ -209,7 +210,20 @@ header {
 }
 
 .smotri a {
-    border: solid rgba(0, 0, 0, 0.5);
+    border: solid rgb(59, 59, 59);
+    padding: 8px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: rgb(59, 59, 59);
+    font-size: 15px;
+}
+
+.smotri a:hover {
+    color: rgba(0, 0, 0, 0.9);
+    border: solid rgba(0, 0, 0, 0.9);
+}
+
+.proc {
     padding: 8px 30px;
     border-radius: 30px;
     text-decoration: none;
@@ -217,31 +231,13 @@ header {
     font-size: 15px;
 }
 
-.smotri a:hover {
-    color: rgba(0, 0, 0, 0.9);
-    border: solid rgba(0, 0, 0, 0.8);
-}
-
-.proc a {
-    border: solid rgba(153, 29, 29, 0.9);
-    padding: 8px 30px;
-    border-radius: 30px;
-    text-decoration: none;
-    color: rgba(253, 1, 1, 0.9);
-    font-size: 15px;
-}
-
-.proc a:hover {
-    color: rgba(255, 0, 0, 0.9);
-    text-shadow: #ce7808;
-    border: solid rgba(212, 3, 3, 0.9);}
 
 footer {
-    font-size: 18px;
+    font-size: 15px;
     padding: 10px;
     text-align: center;
     background-color: rgba(255, 255, 255);
-    margin:0;
+    width: 100%;
 }
 
 /* свойства модального окна по умолчанию */
