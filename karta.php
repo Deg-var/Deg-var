@@ -8,8 +8,8 @@
     <div class="podpis">
         <div class="podpis_text"><?= $karta['opis'] ?>
         </div>
-        <div class="smotri">
-        <p ><a href="#openModal">СМОТРЕТЬ</a></p></div>
+        <div >
+        <p class="smotri"><a href="#openModal">СМОТРЕТЬ</a></p></div>
     </div>
 </div>
 

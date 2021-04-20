@@ -33,9 +33,10 @@ body {
     box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
     background: rgba(255, 255, 255, 0.5);
     border-radius: 10px;
-    margin: auto;
+    margin: 40px;
     margin-bottom: 100px;
     vertical-align: middle;
+    align-self: center;
 }
 
 .opisanie {
@@ -160,7 +161,7 @@ header {
     width: 350px;
     margin: 40px 20px 0px 0px;
     display: inline-block;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
     vertical-align: middle;
 }
 
@@ -191,9 +192,10 @@ header {
 .svas_img {
     width: 50px;
     background-color: rgba(255, 255, 255, 0.75);
-    border-radius: 70px;
+    border-radius: 60px;
     padding: 15px;
     margin: 20px;
+    border: solid;
 }
 
 .svas {
@@ -217,7 +219,7 @@ header {
     text-decoration: none;
     color: rgb(59, 59, 59);
     font-size: 15px;
-    margin: 0;
+    text-decoration: none;
 }
 
 .smotri a:hover {
@@ -228,10 +230,9 @@ header {
 .proc {
     text-decoration: none;
     color: rgba(59, 59, 59, 0.7);
-    font-size: 15px;
-    padding: 8px 30px;
+    border: solid rgba(160, 3, 3, 0.678);
+    
 }
-
 
 footer {
     font-size: 15px;
@@ -286,7 +287,7 @@ footer {
 
 @media (min-width: 576px) {
     .modal-dialog {
-        width: 690px;
+        width: 800px;
         margin: 30px auto;
         /* для отображения модального окна по центру */
     }
@@ -306,7 +307,8 @@ footer {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    background-color: #fff;
+    background-image: url("img/fon_okna.jpg");
+    background-size: 100%;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
     border: 1px solid rgba(0, 0, 0, .2);
@@ -332,21 +334,24 @@ footer {
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
-    align-items: center;
+    align-items: flex-end;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
     padding: 15px;
-    border-bottom: 1px solid #eceeef;
+    text-align: end;
 }
 
 .modal-title {
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 0px;
     line-height: 1.5;
     font-size: 1.25rem;
-    font-weight: 500;
+    font-weight: 900;
+    margin-left: auto;
+    margin-right: 20px;
+    color: #4d1a1a;
 }
 
 /* свойства для кнопки "Закрыть" */
@@ -382,4 +387,13 @@ footer {
     flex: 1 1 auto;
     padding: 15px;
     overflow: auto;
+    color: #4d1a1a;
+    font-weight: 800;
+    margin-bottom: 60px;
+    text-shadow: rgba(0, 0, 0, .2) 2px 2px 2px;
+}
+
+.video {
+    margin-top: 30px;
+    padding-bottom: 30px;
 }
