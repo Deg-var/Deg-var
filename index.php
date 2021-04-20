@@ -46,6 +46,7 @@
         $karts = get_products();
         require("karta.php");
         ?>
+        <div class="contKarts"><?= $count_karts?></div>
     </div>
         <div class="svas" id="svas">
             <div class="svas_text">Есть предложения?<br>Свяжись со мной!</div>
