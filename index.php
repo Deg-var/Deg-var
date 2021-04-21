@@ -29,7 +29,7 @@
 
     <div class="citata"><q>Бред как рабочая стратегия</q><br><em> — wanderbraun</em></div>
     <div id="autor" class="autor">
-        <div><img class="contimg" src="img/no.png"></div>
+        <div><img class="contimg" src="img/rama.png"></div>
         <div class="cont">
             <div class="cont2">
                 <p>ОБ АВТОРЕ</p>
