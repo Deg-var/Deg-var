@@ -81,12 +81,25 @@ function get_products()
             "ssil" => "https://www.youtube.com/embed/H9KEPXm6aVM",
         ],
         "12" => [
-            "title" => "4 Seasons",
-            "img_kart" => "img/4.jpg",
+            "title" => "4 SEASONS",
+            "img_kart" => "img/4.png",
             "opis" => "Перезжаем по кольцу. 4 зоны. В каждой можно находиться до 20 минут. 
             После все юниты погибнут в ней. На переход в следуюшую зону 5 минут. Монахи не умирают в закрытых зонах.",
             "ssil" => "https://www.youtube.com/embed/ikz3E7zsohM",
         ],
+        "13" => [
+            "title" => "CAPTURE THE GOSE",
+            "img_kart" => "img/gus.png",
+            "opis" => "Коммандный захват флага, только вместо флага гусь.",
+            "ssil" => "https://www.youtube.com/embed/kv3MigC19B8",
+        ],
+        "14" => [
+            "title" => "DOTA AOE",
+            "img_kart" => "img/dota.png",
+            "opis" => "Почти дота, с поправкой на механики эпохи. Чтобы играть монахом надо убить своего креста.",
+            "ssil" => "https://www.youtube.com/embed/kv3MigC19B8",
+        ],
+
     ];
 }
 function get_product_attribute($id, $attr)
